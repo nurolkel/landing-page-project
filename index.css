@@ -1,0 +1,222 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header and some Footer Color */
+
+header,footer {
+    background-color: #1F2937;
+}
+
+header {
+    height: 450px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-flex-main {
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header-flex-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-row {
+    width: 50%;
+    margin: 0 10px; 
+}
+
+.header-flex-container img {
+    width: 60%;
+    height: 250px;
+    margin: 0 10px;
+    object-position: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.secondary-text, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+} 
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sign-up-btn, .call-to-action {
+    background-color: #3882F6;
+    color: #fff;
+}
+
+.sign-up-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+/* Cards Area */
+
+.cards-section {
+    width: 100%;
+    height: 500px;
+    margin: 10px 0;
+}
+
+.cards-section h2 {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+}
+
+.cards-item {
+    width: 200px;
+}
+
+.cards-item div {
+    height: 150px;
+    width: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.cards-item p {
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* Quote Area */
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-container div {
+    width: 70%;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Call to action area */
+
+.call-to-action-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.call-to-action-container  .call-to-action {
+    width: 70%;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.call-to-action h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.call-to-action p {
+    font-size: 15px;
+}
+
+.call-to-action p, .call-to-action h3 {
+    margin: 2px;
+    padding: 0;
+}
+
+.call-to-action  button {
+    background-color: #3882F6;
+    border: solid 2px #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: #F9FAF8;
+    font-size: 15px;
+}
+/* Footer Area */
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+    color: #F9FAF8;
+}
